@@ -44,8 +44,10 @@ class Basic{
 }
 
 /*
-	class Bank 
-		balance 
-		wid() dep() checkBal() 
- 
+	create a class Calc 
+		print menu for add , sub , mul , div 
+		ask choice to the user 
+		perform operation as per user's choice 
+
+	Note: only integers , Scanner  
 */
