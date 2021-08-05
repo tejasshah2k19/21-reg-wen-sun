@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 */
 //pure --> encapsulation --> pure oop --> class  
+
 class MyCalc {
 
 	int a,b,ans; // instance varaible  --> instance / object  
