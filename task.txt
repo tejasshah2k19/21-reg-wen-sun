@@ -1,0 +1,15 @@
+//1) Take a string from the user count vowel and total words from it.
+		//2) Take a string from user and search given substring is present or not ?
+						//if present then count how many times? 
+			//Enter string : 
+			//jony jony yes papa 
+			//Enter substring to Search :
+			//ony 
+			//ony found 2 times 
+		
+		//3) Take a string from and make it toggle.
+			//Enter string 
+			//roYal EdUCAtion 
+			//output :
+			//ROyAL eDucaTION 
+----------------------------------------------

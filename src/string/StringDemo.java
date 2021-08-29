@@ -1,4 +1,4 @@
-
+package string;
 //c c++ --> char[] 
 //string - collection of characters -- String:class  
 

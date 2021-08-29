@@ -1,0 +1,41 @@
+String - class 
+
+String :- collections of character 
+		they also use character array internally 
+		
+char[30] //max 30 chars  ==> c c++ 
+
+String => immutable 
+
+
+
+int x = 12 
+String name = "royal";//String 
+String gender  = "m" //String  
+
+	or 
+	
+String name = new String("royal"); 
+
+how we can scan from the user? 
+Scanner 
+
+Scanner scr = new Scanner(System.in);
+
+System.out.println("enter your name");
+String name = scr.next(); // next() => scan string from console [ will not accept space ] 
+
+
+System.out.println("enter your full name");
+String fullName = scr.nextLine(); // nextLine() => scan string from console also accept space  
+
+
+
+char x = scr.next().charAt(0); 
+
+
+
+
+
+
+
