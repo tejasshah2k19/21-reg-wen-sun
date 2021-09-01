@@ -33,6 +33,49 @@ String fullName = scr.nextLine(); // nextLine() => scan string from console also
 
 char x = scr.next().charAt(0); 
 
+---------------------
+
+StringBuffer StringBuilder ==> muttable 
+
+StringBuffer  => synchronized  | turn by turn 
+1 30MIN
+2 30MIN
+3 30MIN
+4 30MIN
+--------
+120MIN 
+
+
+Sync
+50k --> icici bank net banking --> icici saving 5:   5.1   
+22k --> K  --> amazon -----------> icici saving 5:   5.10
+5k ---> P  --> justcry ----------> icici saving 5:   5.15  
+
+
+
+
+StringBuilder  => non-synchronized | all at once 
+1 30MIN
+2 30MIN
+3 30MIN
+4 30MIN
+--------
+30MIN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,7 +7,7 @@
 			//ony 
 			//ony found 2 times 
 		
-		//3) Take a string from and make it toggle.
+		//3) Take a string from user and make it toggle.
 			//Enter string 
 			//roYal EdUCAtion 
 			//output :

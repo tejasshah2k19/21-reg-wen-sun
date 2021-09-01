@@ -28,6 +28,8 @@ public class StringBufferDemo {
 		System.out.println(sb.capacity());
 		sb.append("edu");
 		sb.append("12345678987654321");
+	
+		
 		
 		
 		
