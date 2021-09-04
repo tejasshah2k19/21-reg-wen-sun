@@ -6,7 +6,7 @@ public class StringBufferMethods {
 
 		StringBuffer sb = new StringBuffer("royal");
 		sb.append("edu");
-		System.out.println(sb);
+		System.out.println(sb);     
 		sb.reverse();//
 		System.out.println(sb);
 
