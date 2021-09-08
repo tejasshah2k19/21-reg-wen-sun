@@ -62,6 +62,58 @@ StringBuilder  => non-synchronized | all at once
 --------
 30MIN 
 
+-------------------------------------------------------------------------------------
+inheritance:- by which object of one class can access property of another class 
+	class A
+		add 
+	class B
+		sub 
+		
+	B obj; 
+	obj.sub 
+	obj.add 
+
+we need to use extends keyword to achieve inheritance. 
+
+OOP
+1.	single level
+2.	multi level
+3.	multiple
+4.	hybrid
+5.	hierarchical 
+
+oop=> encapsulate => class 
+
+
+primitive data types*
+
+int 
+char 
+float
+boolean
+
+x = 10 // x instace int class 
+
+-------------------------------------------------------------------------------------
+oop -> c++ , python 
+100% =  [ contains all the features of oop ] --java [ primitives,...,...,..., ] 
+pure =  [ contains only all the features of oop ] 
+-------------------------------------------------------------------------------------
+oop --> specification
+java --> implementation {class , interface } 
+c++ --> implementation  { class } 
+------------------------------------------------------------------------------------- 
+twitter ->Ruby --> |RoR| -->  inter. --> slow 
+	    ->java --> |.class|  0% performance change 	
+-------------------------------------------------------------------------------------
+pHp-> easy --> fast-->cheap 
+html -> js --> 
+-------------------------------------------------------------------------------------
+fre --> 18k 
+exp --> 50k
+-------------------------------------------------------------------------------------
+
+
 
 
 

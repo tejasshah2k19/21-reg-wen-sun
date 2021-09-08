@@ -4,13 +4,16 @@ public class StringBufferMethods {
 
 	public static void main(String[] args) {
 
-		StringBuffer sb = new StringBuffer("royal");
-		sb.append("edu");
-		System.out.println(sb);     
-		sb.reverse();//
-		System.out.println(sb);
+		StringBuffer sb = new StringBuffer("royal");//sync 
+		sb.append("edu");//royaledu 
+		System.out.println(sb);     //royaledu 
+		sb.reverse();//udelayor 
+		System.out.println(sb);//udelayor 
 
-		StringBuilder sb1 = new StringBuilder("ABCDEFGH");
+		String x = sb.toString(); 
+		
+		
+		StringBuilder sb1 = new StringBuilder("ABCDEFGH");//non-sync 
 		System.out.println(sb1);
 		sb1.insert(2, "royal");
 		System.out.println(sb1);

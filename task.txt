@@ -13,3 +13,14 @@
 			//output :
 			//ROyAL eDucaTION 
 ----------------------------------------------
+8-9-2021
+
+1) Take string from user and remove extra space 
+  input:   jony      jony yes     papa 
+  outout:  jony jony yes papa 
+ 
+2) 
+
+  
+  
+
