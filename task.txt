@@ -19,7 +19,62 @@
   input:   jony      jony yes     papa 
   outout:  jony jony yes papa 
  
-2) 
+2)
+
+----------------------------------------------
+Q:
+	create a class Member having following data memebers:
+		name
+		age
+		phoneNumber
+		address
+		salary 
+		
+	this class also contains method named printSalary() which print salary of the member. 
+	
+	we have two more class 
+	Employee and Manager who is derived from Member 
+	
+	both class has property called department.
+	but manager class have projectName which is manage by them 
+	and employee class have technology on which they develope the project.
+	
+	your task is design given classes  with attribute and methods. 
+	
+----------------------------------------------------------------
+	
+Q:
+	create a class Shape with a method to print "this is shape".
+	create two more classes named Rectangle and circle , these two class
+	are inherited from Shape class. both class having a method to print 
+	"This is Rectangle" -> Rectangle
+	"This is Circle" -> Circle 
+	create a subclass Square of Rectangle having a method to print 
+	"Square is a rectangle". 
+	Call method of Shape and Rectangle class using object of Square class. 
+	
+----------------------------------------------------------------
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	  
 
   
   
