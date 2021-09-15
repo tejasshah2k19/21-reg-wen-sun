@@ -94,6 +94,22 @@ boolean
 
 x = 10 // x instace int class 
 
+to access the property of parent class-> child can use __super____ keyword. 
+
+we can use super keyword inside the only child class. 
+can i use super keyword in main method?? no 
+oop--> method overriding 
+		if child create a method having exactly same signature with parent. 
+
+  --> method overloading 
+  		1) when a single class create method with same name and unique argument then it's known as overloading , 
+  		   overloading can be possible in inheritance also 
+  		   
+  		   
+  overloading can be possible in single class or we can achieve using more than one class 
+  overriding required inheritance so we must need at-least 2 class -- parent child 
+  
+
 -------------------------------------------------------------------------------------
 oop -> c++ , python 
 100% =  [ contains all the features of oop ] --java [ primitives,...,...,..., ] 

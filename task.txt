@@ -37,7 +37,7 @@ Q:
 	
 	both class has property called department.
 	but manager class have projectName which is manage by them 
-	and employee class have technology on which they develope the project.
+	and employee class have technology on which they develop the project.
 	
 	your task is design given classes  with attribute and methods. 
 	
