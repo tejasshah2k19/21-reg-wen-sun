@@ -128,8 +128,16 @@ html -> js -->
 fre --> 18k 
 exp --> 50k
 -------------------------------------------------------------------------------------
-
-
+constructor :- its a special method which has same name as class name ,
+			   it is used to initialize the instance variable. 
+			   it does not have any return type.
+			   We don't need to call it , it will call automatically when we create an instance. 
+			   
+implicit constructor
+	default constructor 
+explicit constructor 
+    default constructor  [ no arg ] 
+    paramaterized constructor [ argument ] 
 -------------------------------------------------------------------------------------
 
 
