@@ -14,7 +14,6 @@ class Parent {
 	Parent() {
 		this(9);
 		System.out.println("Parent()");
-
 	}
 
 	Parent(int x) {

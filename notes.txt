@@ -145,9 +145,22 @@ explicit constructor
 
 
 
+//single data name --> can store multiple values;
+//array --> collection of same type of data; 
+//      --> its a static memory allocation , so we need to allocate size before use 
+//			once we allocate memory we can not resize it. --> insert -> grow --> delete -> shrink 
+//			arrya is non primitive data type 
+//			ragged array -- array of array  
 
 
+1D array 
 
+array elements can be access using index 
+index starts with 0 and ends with  size-1 [size - array total capacity ] 
+
+int a[] = new int[5]
+
+_____subscript_______ is an alternative name of index? 
 
 
 

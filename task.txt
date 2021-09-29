@@ -54,7 +54,13 @@ Q:
 	Call method of Shape and Rectangle class using object of Square class. 
 	
 ----------------------------------------------------------------
+29-9-2021
 		
+		1)  Scan and Print oneD array of size 5 
+		2)  find out the max from 1D array of size 5
+		3)  sort 1D array of size 5
+		
+----------------------------------------------------------------
 	
 	
 	
