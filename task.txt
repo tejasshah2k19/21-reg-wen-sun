@@ -78,7 +78,7 @@ system will take input like,
 your system has menu driven approach, citizen can select choice and perform their transcation. 
 
 1 Enroll For Vaccination 
-2 Check Status Of Vaccincation 
+2 Check Status Of Vaccination 
 3 Issue Certificates 
 4 exit 
 
@@ -93,14 +93,36 @@ output for choice 1:
 	AadharNum : 11112222 	
 
 	do you want to take 1st doze? 
-	y 
+	y***  
 	[mark tejas's 1st doze as taken and 2nd doze pending] 
 
 	do you want to take 1st doze? 
 	n
 	[mark tejas's 1st doze as pending and 2nd doze pending] 
  
+choice 2:
+    
+    2 Check Status Of Vaccination 	
 	
+	Enter your Aadhar Num :  22222222 
+	Invalid AadharNum 
+	
+	
+choice 2:
+    
+    2 Check Status Of Vaccination 	
+	
+	Enter your Aadhar Num :  11112222 
+ 	Tejas's Vaccination Details 
+ 	1st Doze :  Taken
+ 	2nd Doze :  Pending 
+
+choice 3: 
+ 	3 Issue Certificates 
+	
+	Enter your Aadhar Num :  11112222 
+ 	Tejas Shah with Aadhar Num 11112222 has completed their 1st doze and pening their 2nd doze 
+ 	
 	
 ***************************************************************
 -------------------------------------------------------------
