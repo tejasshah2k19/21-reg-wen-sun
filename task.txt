@@ -61,7 +61,52 @@ Q:
 		3)  sort 1D array of size 5
 		
 ----------------------------------------------------------------
+***************************************************************
+10-10-2021
+
+India starts covid vaccination program,
+we need to design a system that track all the vaccination records. 
+system will take input like,
+	citizen's name 
+	age 
+	gender
+	state 
+	city 
+	adharnumber  [ must be in 8 digit ] 
+	status of two dozes 
+
+your system has menu driven approach, citizen can select choice and perform their transcation. 
+
+1 Enroll For Vaccination 
+2 Check Status Of Vaccincation 
+3 Issue Certificates 
+4 exit 
+
+output for choice 1:
 	
+	1
+
+	Name : Tejas Shah
+	Gender : Male 
+	State : GJ
+	City : AHD 
+	AadharNum : 11112222 	
+
+	do you want to take 1st doze? 
+	y 
+	[mark tejas's 1st doze as taken and 2nd doze pending] 
+
+	do you want to take 1st doze? 
+	n
+	[mark tejas's 1st doze as pending and 2nd doze pending] 
+ 
+	
+	
+***************************************************************
+-------------------------------------------------------------
+
+	
+ 	
 	
 	
 	
