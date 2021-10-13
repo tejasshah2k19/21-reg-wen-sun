@@ -81,6 +81,8 @@ your system has menu driven approach, citizen can select choice and perform thei
 2 Check Status Of Vaccination 
 3 Issue Certificates 
 4 exit 
+5 Enrollment For SecondDoze 
+
 
 output for choice 1:
 	
@@ -123,6 +125,20 @@ choice 3:
 	Enter your Aadhar Num :  11112222 
  	Tejas Shah with Aadhar Num 11112222 has completed their 1st doze and pening their 2nd doze 
  	
+choice 4: 
+	exit()
+	
+choice 5: 
+	 Enter Your AadharNumber 
+	 11112224
+	 Invalid AadharNumber 
+	  
+choice 5: 
+	 Enter Your AadharNumber 
+	 11112222
+	 2nd Doze Taken.
+	 Thank You!!!  
+	
 	
 ***************************************************************
 -------------------------------------------------------------
