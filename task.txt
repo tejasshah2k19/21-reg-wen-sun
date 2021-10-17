@@ -142,7 +142,15 @@ choice 5:
 	
 ***************************************************************
 -------------------------------------------------------------
+17-10-2021
 
+1) We need to note down when citizen take the dozes
+2) Ask date of birth and check age. citizen must be 18+ 
+3) if date is belongs to odd then citizen who's age is 45+ can enroll for vaccination.
+4) once the first doze taken give them suggestion when to take 2nd doze 
+   [minimum 60 days for 18-45 and 90 days for 45+ ] 
+    
+-------------------------------------------------------------
 	
  	
 	

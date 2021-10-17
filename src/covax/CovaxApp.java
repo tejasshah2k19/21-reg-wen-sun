@@ -1,5 +1,6 @@
 package covax;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class CovaxApp {
@@ -54,7 +55,7 @@ class Citizen {
 	String city;
 	int aadharNumber;
 	boolean dz1 = false, dz2; // boolean default -> false
-
+	Date doze1,doze2;
 	void getData() {
 		Scanner scr = new Scanner(System.in);
 		System.out.println("Enter Name : ");
@@ -76,6 +77,8 @@ class Citizen {
 
 		if (choice.equalsIgnoreCase("y")) {
 			dz1 = true;
+			doze1 = new Date();
+			//
 		}
 
 	}
