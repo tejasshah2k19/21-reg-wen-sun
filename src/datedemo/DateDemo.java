@@ -6,9 +6,9 @@ public class DateDemo {
 
 	public static void main(String[] args) {
 		
-		Date d = new Date();
+		Date d = new Date();//1 jan 1970 
 		System.out.println(d);//string 
-		
+		  
 		System.out.println(d.getYear());
 		System.out.println(d.getMonth());
 		System.out.println(d.getDay());
@@ -28,18 +28,18 @@ public class DateDemo {
 		
 		
 		DateFormat dfMedium = DateFormat.getDateInstance(DateFormat.MEDIUM);
-		System.out.println("Medium => "+dfMedium.format(d));//17/10/21
+		System.out.println("Medium => "+dfMedium.format(d));// 
 		
 		
 		DateFormat dfLong = DateFormat.getDateInstance(DateFormat.LONG);
-		System.out.println("Long => "+dfLong.format(d));//17/10/21
+		System.out.println("Long => "+dfLong.format(d));// 
 		
 		
 		DateFormat dfFull = DateFormat.getDateInstance(DateFormat.FULL);
-		System.out.println("Full => "+dfFull.format(d));//17/10/21
+		System.out.println("Full => "+dfFull.format(d));// 
 		
 		
-		
+		//locale
 		
 		
 		
