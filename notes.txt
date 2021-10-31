@@ -163,6 +163,149 @@ int a[] = new int[5]
 _____subscript_______ is an alternative name of index? 
 
 
+-------------------------------------------------------------------------------------
+
+folder --> package -> it is java's sepratation for classes. 
+
+lang
+	Math
+	String 
+	System
+util 
+	Scanner
+	Date
+	Calendar
+io
+	File 
+	FileWriter
+	FileReader 
+sql
+
+applet 
+
+
+	
+....
+....
+....
+
+
+movies 
+	hollywood
+			hindi
+			eng  
+	bollywood
+			bagban 		
+	tolly
+
+
+
+two types :-
+	built-in packages [ lang, io , util , applet , ...]
+	user-define packages [XXX] 
+------------------------------------------------------
+
+access specifier--> 
+
+								
+	abc				def			
+	A	A::add()	private		D			
+	B 	A::mul()	default		E extends A			
+	C extends A	A::div()	protected					
+		A::sub()	public					
+								
+					                                 private	default	protected	public
+	object of A class from A 		same class	      A	Y	Y	Y	Y
+	object of A class From B 		same package non subclass	B	N	Y	Y	Y
+	object of C class From C 		same package sub class	C	N	Y	Y	Y
+	object of A class From D 		diff pack non sub	D	N	N	N	Y
+	object of E class From E 		diff pack sub	E	N	N	Y	Y
+	
+
+-------------------------------------------------------------
+non-access-modifiers 
+
+	static
+	final
+	abstract 
+	synchronized
+	transient 
+	volatile 
+	native 
+	
+	
+------------------------------------------------------
+static:- 
+
+
+//class  ->  ---- 
+//method -> static  
+//variable -> static 
+
+class A {
+
+	int k; // instance variable
+	static int y = 10;// static/class variable
+
+	// if we create 10 instance of class A then k will be created 10 times in the
+	// memory
+	// for the same , y will be only once in the memory.
+
+	// instance variable can be access using instance/object only
+	// static variable can be access using instance/object or class name
+
+	// When to use static variable?
+	// when we have common properties for all instance static is best
+	// Bank ->
+	// balance
+	// branchCode*
+	// bankCode*
+
+	// non static -> instance call
+	// static -> class call
+
+	
+	// When to use static method?
+	// when we want to call method without instance
+	// common logic -> utility class { Math -> sin() sqrt() } Math.random()
+	// Math.sqrt()
+	// covax --> input --> name , aadhar , year --> validation [ a-zA-Z , digit+8 ,
+	// ]
+
+	//static method can be call using instance/class name 
+	
+	void add() {
+		System.out.println("non static -> A::add()");
+		System.out.println("k => "+k); // non static method -> non static variable ? yes 
+		System.out.println("Y => "+y); // non static method -> static variable ? yes 
+	}
+
+	static void sub() {
+		System.out.println("static -> A::sub()");
+//		System.out.println("k => "+k); // static method -> non static variable ? no 
+		System.out.println("Y => "+y); // static method -> static variable ? yes 
+	
+	}
+
+}
+
+-----------------------------------------------------------
+
+final:-
+
+class:- Yes
+method:- Yes 
+variable:- Yes [ instance , local ] 
+
+
+
+
+
+-----------------------------------------------------------
+
+
+
+
 
 
 

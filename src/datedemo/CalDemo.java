@@ -29,7 +29,7 @@ public class CalDemo {
 		//roll()  
 //		c.add(Calendar.DATE, 45+29);//45 days 
 		c.roll(Calendar.DATE, 45);//45 days  //20 +45 
-		 
+		 //c -> 
 		System.out.println(c.get(Calendar.DATE));//4 
 		Date d = new Date(c.getTimeInMillis()); // convert  cal -> date 
 		System.out.println(d);
