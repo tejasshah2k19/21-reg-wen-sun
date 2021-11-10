@@ -297,11 +297,38 @@ class:- Yes
 method:- Yes 
 variable:- Yes [ instance , local ] 
 
+---------------------------------------------------------------------------------------
+abstract :- 
+	hide 
+	
+class:- yes
+method:- yes
+variable:- NA 
+
+if you have abstract method in your class , then your class must be an abstract.
+abstract class can contains both methods abstract and non-abstract.
+you can not create instance of abstract class. 
+you have to create concrete sub class [ non abstract child class ] and override all abstract methods.
+ 
+
+---------------------------------------------------------------------------------------
+strictfp :- 
+	class  - yes 
+	method - yes 
+	variable - no
+---------------------------------------------------------------------------------------
+
+volatile*
+transient* 
+---------------------------------------------------------------------------------------
 
 
 
 
------------------------------------------------------------
+
+
+
+
 
 
 
