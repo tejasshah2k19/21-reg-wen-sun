@@ -321,11 +321,44 @@ strictfp :-
 volatile*
 transient* 
 ---------------------------------------------------------------------------------------
+interface :- is a pure abstract class.
+			 so all the methods in interface are implicitly abstract.
+			 you can create interface using interface keyword. 
+			 
+			 interface RBI{
+			 
+			 }
+			 
+			 achieve multiple inheritance* 
+			 contract  
+
+			class has to "implements" interface
+			
+			all methods in interface are also public 
+			
+			method -> abstract ,public 
+			variable -> final , public , static 
+			
+			
+			you can implements more than 1 interface with 1 class
+
+			can we have constructor in interface? 
+			can we create instance of interface? 
+			A.java ==> class A, class B,class C ==> compile -> .class??? 3 A.class B.class C.class 
+			
+
+			if i have 1 interface A and 1 class C in my C.java file then how many class will create when we compile C.java??
+			C.java => class C , interface A => compile --> .class ? C.class , A.class  
+
+---------------------------------------------------------------------------------------
 
 
 
 
 
+
+
+---------------------------------------------------------------------------------------
 
 
 

@@ -154,9 +154,43 @@ choice 5:
 
 -------------------------------------------------------------
 	
- 	
+create an application for JB , they have various food items for sell. 
+
+
+user have to come and signup first , in signup user provides their firstname and mobile number.
+once user signup, they can place order.
+
+
+we have food items like, dabeli [25 Rs] , pizza [100 Rs] , pasta [120 Rs] 
+
+
+user can select any item with max 10 qty per order. 
+
+
+at last you have to generate bill with proper items.
+
+
+e.g
+
+
+if user buy dabeli with 5 qty and pizza with 3 qty then 
+user will pay tax , 10% on total bill 
+
+
+Bill :
+
+
+Dabeli 5 25	 125
+Pizza  3 100 300
+-----------------
+Total        425
+Tax(10%)      42
+-------------------
+TotalAmount  467
 	
 	
+class object array public static final constructor  
+---------------------------------------------------------------------------------------------------------
 	
 	
 	
