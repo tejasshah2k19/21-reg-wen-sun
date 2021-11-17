@@ -8,6 +8,9 @@ public abstract class InterfaceDemo {
 
 	public static void main(String[] args) {
 
+//		TRAI t  = null;
+//		System.out.println(t);
+//		t.call();
 	}
 }
 

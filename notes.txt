@@ -352,11 +352,39 @@ interface :- is a pure abstract class.
 
 ---------------------------------------------------------------------------------------
 
+exception :- run time error 
+
+error :-	1)	compile time error - syntax , ; , variable declare | assign  [ compiler ]  
+			2)  runtime error  , logic , 
+			
+			division -> 10,2 => 10/2 => 5 
+			division ->   10 , 0 => 10/0 => runtime error -> exception 
 
 
-
-
-
+exception handling --> 
+			
+			try -- code --> exception 
+			hit ---> jre --> X 
+			throw				--> throw --> crash 
+			catch   --> X --> handle 
+				
+	exception class ---> Exception 
+	
+	
+	try 
+	catch 
+	finally 
+	
+	
+				Throwable 
+	
+	Exception 					Error {X} --> class - main ->  
+	
+		
+	Arith 
+	Input 
+	Null
+	
 
 ---------------------------------------------------------------------------------------
 
