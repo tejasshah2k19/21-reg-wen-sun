@@ -381,12 +381,129 @@ exception handling -->
 	Exception 					Error {X} --> class - main ->  
 	
 		
-	Arith 
-	Input 
-	Null
+	ArithmeticException
+	InputmissmatchException  
+	NullPointerException
+	StringIndexOutofBoundsException
+	ArrayIndexOutofBoundsException
+	
+	
+	
+				Exception  
+		IOException			RuntimeException
+								ArithmeticException
+								InputmissmatchException  
+								NullPointerException
+								StringIndexOutofBoundsException
+								ArrayIndexOutofBoundsException
+							
+			
 	
 
 ---------------------------------------------------------------------------------------
+
+how many types of error we have in java? 
+2
+
+____Exception______ is parent of all exception class? 
+
+
+
+______ and __________ keywords are used to handle exception?
+try...catch 
+
+
+__________ block is used to handle garbage cleaning. 
+finally 
+
+
+_______ is parent of Exception class ? 
+Throwable 
+
+_______ is parent of Throwable class? 
+Object 
+
+-------------------------------------------------------------------------------
+
+
+
+custom exception --- 
+
+		google api -->   website --> signup --> login
+				website --> login with google 
+				
+		tejas
+		tejas@gmail 
+		tejas@ymail.com
+		tejas@gmail.in
+		
+		tejas@gmail.com 
+		
+		google will throw an exception --> 
+		
+		
+		payment --->
+			website--> 15000 --> |payment gateway| sbi card --->
+							XXXXX2123 
+							cvv 
+							expDate
+							otp
+				cvv - 1200
+				expDate  - 3200
+				expired - 2300 
+				otp - 6300 
+				cardnumber - 9090
+				credit limit - 6520 
+				balance - 2563 
+				
+		
+			ORA-90001 : foreign key....
+				
+				
+-------------------------------------------------------------------------------
+							
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		
+		
+		
+		
+		
+		
+				
+				 
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
