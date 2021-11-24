@@ -374,6 +374,8 @@ exception handling -->
 	try 
 	catch 
 	finally 
+	throws 
+	throw [ custom | manual throw exception ] [ raise* ] 
 	
 	
 				Throwable 
@@ -461,10 +463,26 @@ custom exception ---
 				
 				
 -------------------------------------------------------------------------------
-							
 			
+				Exception  
+		IOException			RuntimeException
+								ArithmeticException
+								InputmissmatchException  
+								NullPointerException
+								StringIndexOutofBoundsException
+								ArrayIndexOutofBoundsException
+											
+All exception class are belongs to either checked exception or unchecked exception 
 			
+1) checked -- Exception 
+2) unchecked -- RuntimeException 
+
+				
+-------------------------------------------------------------------------------
 			
+class -> resource --> release --> close() 
+
+Closeable --> 
 			
 			
 			
