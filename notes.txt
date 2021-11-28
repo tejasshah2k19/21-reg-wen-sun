@@ -483,8 +483,32 @@ All exception class are belongs to either checked exception or unchecked excepti
 class -> resource --> release --> close() 
 
 Closeable --> 
+
+try{
+
+}catch(NullpointerException | ArithmeticException e){
+
+}			
 			
-			
+-------------------------------------------------------------------------------
+
+commandLine :-
+
+	take any numbers from user using commnad line and perform addition of all numbers. 
+	
+	e.g
+	
+	
+	java Sum 1 2 3 
+	ans = 6
+	
+	java Sum 1 2 3 4 5 
+	ans = 15 
+	
+	java Sum 10 20 
+	ans = 30 
+
+-------------------------------------------------------------------------------
 			
 			
 			

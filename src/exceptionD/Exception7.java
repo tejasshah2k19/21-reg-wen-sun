@@ -8,7 +8,7 @@ public class Exception7 {
 
 //		Scanner scr = new Scanner(System.in); // object --> resource --> console --> input
 //		scr.close();
-		
+
 		// try with auto resource collection
 //		FileReader 
 //		FileWriter
@@ -19,6 +19,13 @@ public class Exception7 {
 //		finally {
 //			scr.close()
 //		}
+		try {
+			System.out.println("logic");
+		} catch (NullPointerException | ArithmeticException e) {
+			System.out.println("some error");
+		} catch (Exception e) {
+			System.out.println("----");
+		}
 
 	}
 }
