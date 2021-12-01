@@ -83,7 +83,8 @@ OOP
 5.	hierarchical 
 
 oop=> encapsulate => class 
-
+	
+	
 
 primitive data types*
 
@@ -494,7 +495,7 @@ try{
 
 commandLine :-
 
-	take any numbers from user using commnad line and perform addition of all numbers. 
+	take any numbers from user using command line and perform addition of all numbers. 
 	
 	e.g
 	
@@ -507,15 +508,51 @@ commandLine :-
 	
 	java Sum 10 20 
 	ans = 30 
+	
 
 -------------------------------------------------------------------------------
+enum :- 
+
+		JB app ->
+			final static int dabeliPrice=30; 
+			final static int pizzaPrice=34; 
 			
+			class 
+		1)	enum -- outside class 
+		2)	enum -- inside class 
 			
+-------------------------------------------------------------------------------
+polymorphism :- 
+
+		compile time					
+			method overloading ,
+				method -> 1+ -> same name ->argu diff | return 
+			operator overloading* [ + operator ] 
+			 
+		runtime 
+			overriding 
+				parent-child -->method -->same signature 
+			virtual function*	
+				
+	
+dynamic method dispatch
+dynamic method loading 
+runtime polymorphism 
+		
+polymorphic object --> 
+	compile time --> parent 
+		runtime --> child 
+		
+
 			
-			
-			
-			
-			
+-------------------------------------------------------------------------------
+encapsulation :-	
+
+			instance variable --> protected  or private
+			method ---> public 
+				getters 
+				setters 
+				 
 			
 		
 		
