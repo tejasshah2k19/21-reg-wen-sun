@@ -553,12 +553,50 @@ encapsulation :-
 				getters 
 				setters 
 				 
+-------------------------------------------------------------------------------
+			
+what is the difference between & and && operator ?
+		
+		
+if(a > b && a++ > b++){
+	System.out.println("inside if");
+}	
+	
+ System.out.println(a);
+ System.out.println(b);
+	
+	
+		
+if(a > b & a++ > b++){
+	System.out.println("inside if");
+}	
+	
+ System.out.println(a);
+ System.out.println(b);
 			
 		
+instance of -----> 
+
+
+blocks ->
+	static - will call once - in the beg. - static block will call first from all blocks  
+	instance - will call everytime when you create instance/object - brefore the constructor 
+	can we have more than 1 static block?  yes
+	can we have more than 1 instance block (IIB ) ? yes 
+	calling ?
+	if we have multiple static/instnace block then execution will takes 
+	first come first serve -- top down approach. 
+	
+	if you want to perform initilization task - 
+		a = 90 X  --* [constructor ] 
+		a = [ some logic ] // pre processing 
 		
-		
-		
-		
+	Product {
+		price = [ db => USD | INR ] 
+	}
+	
+	
+	
 		
 		
 				
