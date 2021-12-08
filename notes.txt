@@ -600,6 +600,92 @@ blocks ->
 		
 		
 				
+-------------------------------------------------------------------------------
+local variable use ____stack_____ to store their values?
+instance variables are stored in ____heap________ ? 
+static variables are stored in _____heap_______ ? 
+
+void add(){
+	int k;
+}
+Bank b = new Bank(); 
+class Bank{
+	b =null; 
+}
+--> gc -->
+	
+---------------------------------------------------------------------------------------------------------
+collections --> when we have multiple data items to deal with....
+ 
+	1)collection - topic  
+	2)Collection - interface 
+	3)Collections - class 
+	
+	
+flipkart --> led tv --> search --> request --> server ---> ledtv ---> db --> [10,000]-->server-->you 
+sort by ratings 
+sort by price -> h - l  , l - h 	
+	led tv 55" mi --> 55000 56000 
+	
+	1) dynamic 
+	2) sort 
+	3) unique 
+	-------
+	
+								Collection
+		List			Queue			Set 						Map*
+c->		ArrayList	PriorityQueue		HashSet					HashMap
+		Vector				 			TreeSet					TreeMap 
+		
+		
+		Collections 
+		Arrays 
+		Comparable 
+		Comparator 
+		
+--------------------------------------------------------------------------------------------------------	
+	
+	ArrayList -- array | dynamic - no data type limit   
+	--- unsorted , ordered  , allow duplicates 
+	--- you can access data using index 
+	
+	Vector --- all methods are same 
+		 
+	
+--------------------------------------------------------------------------------------------------------	
+	use multiple users in bank app. 
+	also add 1 more feature --- transfer amount from one account to another , make sure 
+	user will not enter invalid account number. if user input invalid account number then
+	charge 500rs per invalid input. 
+--------------------------------------------------------------------------------------------------------	
+	priority queue --> unorder , unsorted , allow duplicates 
+--------------------------------------------------------------------------------------------------------	
+	HashSet 
+	TreeSet 	
+--------------------------------------------------------------------------------------------------------	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 				 
 								
 

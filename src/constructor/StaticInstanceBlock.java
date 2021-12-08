@@ -8,6 +8,8 @@ public class StaticInstanceBlock {
 		// Player p2 = new Player();
 //		System.out.println(Player.gameCode);
 		System.out.println("hi...");
+
+		//
 	}
 }
 
