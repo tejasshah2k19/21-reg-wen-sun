@@ -660,14 +660,38 @@ c->		ArrayList	PriorityQueue		HashSet					HashMap
 --------------------------------------------------------------------------------------------------------	
 	priority queue --> unorder , unsorted , allow duplicates 
 --------------------------------------------------------------------------------------------------------	
-	HashSet 
-	TreeSet 	
+	HashSet -> unsorted 
+	TreeSet -> sorted 
+	Set => no duplicate 
 --------------------------------------------------------------------------------------------------------	
 
 
+KJ => 
+ 	KJ has variety of products to sell. 
+ 	they are specialized in making gold bangles.
+ 	they are also selling ear-rings. 
+ 	your task to design an application that can manage their inventory. 
+ 	you need to store details of every product , 
+ 		like ,productId, name , qty , price , and type of build - type of build can be any [ gold,silver,diamond,mix] 
 
-
-
+ 
+	design menu for , addition and listing and search products for app. 
+	
+	
+	search -> price -> budget -> 25000 [ products ] 
+	search by buildType ->  gold | silver | 
+	
+	buy -> 
+		enter productId ?
+		123
+		Qty 
+		1
+		
+		123 -> product -> qty -> 1 minus 
+				
+ 
+	
+--------------------------------------------------------------------------------------------------------	
 
 
 
