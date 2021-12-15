@@ -664,7 +664,8 @@ c->		ArrayList	PriorityQueue		HashSet					HashMap
 	TreeSet -> sorted 
 	Set => no duplicate 
 --------------------------------------------------------------------------------------------------------	
-
+how arraylist works in memory?
+--------------------------------------------------------------------------------------------------------
 
 KJ => 
  	KJ has variety of products to sell. 
