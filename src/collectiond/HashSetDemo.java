@@ -30,7 +30,7 @@ public class HashSetDemo {
 
 		TreeSet<Integer> tailSet = (TreeSet<Integer>) hs.tailSet(200);
 		System.out.println(tailSet);
-
+		//subset -> 200 to 500 
 		System.out.println(hs);
 
 		// for each
@@ -38,6 +38,5 @@ public class HashSetDemo {
 			System.out.println(x);
 		}
 
-		
 	}
 }
