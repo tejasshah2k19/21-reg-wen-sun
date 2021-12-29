@@ -1,6 +1,5 @@
 package collectiond;
 
-import java.util.HashSet;
 import java.util.TreeSet;
 
 public class CustomSortDemo {
