@@ -715,6 +715,11 @@ HashMap			TreeMap
 key:value 
 
 index:value 
+--------------------------------------------------------------------------------------------------------	
+
+
+
+thread 
 
 
 
@@ -722,9 +727,19 @@ index:value
 
 
 
+	new---->start()				[ running / runnable ]     ----> stop()			dead 
+								  active[ yield() ]   
 
 
 
+
+
+									suspend() -- resume() [d][Thread] 
+									wait() - notify()    [ Object ] 
+									sleep(ms) 
+											- notifyall() [ Object ] 
+									wait(ms)--notify() 
+									block 
 
 
 
