@@ -45,10 +45,14 @@ class Amazon extends Thread {
 	}
 
 	// common -- share --> resource
+	// synchronized void buy(int amount)
 	void buy(int amount) {
-
+		///
+		//
+		//
+		//
 		synchronized (this) {
-            //
+			//
 			//
 
 			//
@@ -61,7 +65,7 @@ class Amazon extends Thread {
 			}
 
 			System.out.println(" END == > " + currentThread().getName());
-          //
+			//
 		}
 	}
 }

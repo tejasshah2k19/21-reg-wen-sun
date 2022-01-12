@@ -740,6 +740,119 @@ thread
 											- notifyall() [ Object ] 
 									wait(ms)--notify() 
 									block 
+--------------------------------------------------------------------------------------------------------	
+wait and notify both are must be inside synchronized block / code 
+
+
+--------------------------------------------------------------------------------------------------------	
+
+synchronize --> 
+			lock / make sure that all threads are execute turn by turn 
+			but condition is --- all threads must use same / common resource
+			
+			
+			lock
+					class level lock --> static 
+					instance level lock --> instance 
+	
+	
+	Keval --> amazon [ bal ] [ lock ] 
+	
+	Tejas --> amazon [ bal ] [ lock ] 
+	
+	DhirajSir --> amazon [ bal ] [ lock ] 
+	
+	
+	
+	
+	[salary bal  100 ] 
+	Tejas --> amazon [ bal ] [ 60 ]  [ 3rd lock ] [ insufficient balance ] [ 3rd release ] 
+	
+	Daughter --> flipkart [ bal ] [ 40 ] [1stlock ]  [ 60bal ] [1st release]  
+	
+	Wife --> myntra [ bal ]  [ 20 ]  [ 2nd lock ] [ 40 bal ] [ 2nd release ] 
+	
+  --> 120 [ -20 ] 
+  
+  
+  
+  amazon ---> amazon payment --> api --> bank 
+  
+  myntra --> payment ---> api ---> bank 
+  
+  sync  wid(amount,caller,trans,x,x,x,x)
+      		bal 
+      		5000 , atm , sdsd ,  ) 
+      		5000 , amazon , sdsds, sdsd )
+      		6000, atm , kotak )
+      
+  
+  NEFT 	IMPS	AMAZON   MYNTRA 
+  x		y		ecom	 ecom
+  
+
+CHEQUE-->  
+	x --> y#  
+	  
+RTGS      
+NEFT --> 
+	x -->  y
+	  push -> request -> x --> y 
+	  push -> request -> x --> y 
+	  push -> request -> x --> y 
+	  push -> request -> x --> y 
+	  push -> request -> x --> y 
+	  push -> request -> x --> y 
+	  push -> request -> x --> y 
+
+IMPS -->24*7  
+	  instant 
+	  
+	  payee --> activate --> bank 
+
+2000 ->
+2005 -> 
+	  
+2010 year --> 	  
+	  
+-------------------------------------------------- 
+create class Player with life variable. 
+your player has 3 life. once life become 0 you need to display game over and you can't play game. 
+
+create one method which kills your player and decrease your life count. 
+
+create 5 players and play game. check which player can play and which are not eligible for play. 
+1 object 5 thread 
+--------------------------------------------------
+	
+create class SumThread having total variable with 0 value. 
+create 1 method increment which increase total variable by 20 
+create 1 method printtotal which print value of total variable. 
+
+your task is make 5 thread of an SumThread object and call increase 5 times 
+once all 5 increment finish print total
+
+your main object  will call   printtotal method 
+
+--------------------------------------------------
+
+create class SumThread having total variable with 0 value. 
+we need to perform sum of 100 numbers. 
+1+2+3+...60 in total variable 
+but we need to divide this task in multiple thread. 
+like 1 thread will perform addition of 1  to 20 
+second thread will perform addition of 21 to 40 
+and third thread will perform addition of 41 to 60 
+after this print the total variable. 
+
+--------------------------------------------------
+
+  
+  
+  
+  
+  
+  
 
 
 
