@@ -823,13 +823,42 @@ create one method which kills your player and decrease your life count.
 
 create 5 players and play game. check which player can play and which are not eligible for play. 
 1 object 5 thread 
+
+
+Player p = new Player();
+p.life= 3 
+
+
+t1("a")
+t2("b")
+t3("c")
+t4("d")
+t5("e")
+
+t1.start...t5.start
+
+
+start --> a is playing now 
+		  b is playing now 
+		  d is playing now  
+		  c can not play 
+		  e can not play 
+		  
+		  	
+kill(){
+	life  = life - 1 ;
+} 
+
+
+ 
+
 --------------------------------------------------
 	
 create class SumThread having total variable with 0 value. 
-create 1 method increment which increase total variable by 20 
+create 1 method increment which increase total variable by 20 [ total = total + 1] 
 create 1 method printtotal which print value of total variable. 
 
-your task is make 5 thread of an SumThread object and call increase 5 times 
+your task is make 5 thread of an SumThread object and call increment 
 once all 5 increment finish print total
 
 your main object  will call   printtotal method 
