@@ -875,6 +875,79 @@ and third thread will perform addition of 41 to 60
 after this print the total variable. 
 
 --------------------------------------------------
+ io --> file 
+ 
+ to store data --> input / output 
+ 
+ 
+ nio -->  
+
+
+io / nio 
+
+
+io 
+	File 
+		open
+		remove
+		size 
+		file ? folder ?
+		folder
+		list out all files and folders from a folder 
+		read ony , execute , write , hidden 
+		---
+1) take file name from user and check that file is present 
+   inside d drive or not , if present then print file is present 
+   if not then create it and print new file created. 
+   
+2) take file name from user with location, 
+	if file is present and size > 0 byte then remove it. 
+
+3) take two file name from user. 
+		3.1) if both file  are present then print filename who is bigger in size/ 
+		3.2) if first file is present and second is not then print  "Today is not that Day" 
+		3.3) if second file is present and first is not then print  "tommorow Land" 	
+		3.4) if both are missing then print "call james bond" 
+		
+4) take directory name from user if directory is present then create a file A.pdf 
+		if not present then create it and create B.pdf inside it. 
+5) take directory name from user , 		
+		5.1 ) count how many java file are present and how many folders are present 
+		5.2 ) remove all hiddent and zero size file from it. 
+		5.3 ) print file name who is highest in size 
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
   
