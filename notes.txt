@@ -945,8 +945,48 @@ read write
 
 
 
+writing an instance into file is known as serialization  --> instance variable 
 
 
+1) library :-	
+
+		library app will manage all the books for their users. 
+		it has n numbers of books with various author 
+		you need to provide dashboard for both the user librarian and user.
+		librarian can add/delete/update any book in library 
+		librarian can allocate book to user. 
+		user can login and check any book is allocated to him/her or not.
+		user also search for book with title or author name. 
+		if book found then they can ask for the book if it is not allocated to other user. 
+		
+		
+		you need to maintain the state of the application, so librarian run your java app after sometime they get
+		the same state.
+		
+		
+		signup 
+		login 
+					
+					
+		admin 
+				add book
+				remove 
+				modify 
+				allocate
+				list 
+		user
+				book search 
+				view my allocated books
+				request book allocation 
+				
+----------------------------------------------------------------------------------------------------------------------				
+					
+				
+			
+				
+				 
+		
+		
 
 
 
