@@ -982,12 +982,28 @@ writing an instance into file is known as serialization  --> instance variable
 ----------------------------------------------------------------------------------------------------------------------				
 					
 				
-			
+	inner -> 
 				
-				 
-		
+				Graph 
+					Node
+						addNode , removeNode 
+					AdjList
+						Node-Node ,  
+				 				
+				g.addNode(a);  
+				g.addNode(b);  
+				g.addEdge(a,b);
 		
 
+	1) inner class 
+		1.1) class inside class
+		1.2) class inside method [ method local inner ]
+		1.3) anno. inner class [no name of class] 
+		
+	2) nested class 
+			static class inside class 	
+
+----------------------------------------------------------------------------------------------------------------------				
 
 
 
